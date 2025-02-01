@@ -34,7 +34,7 @@ This repository contains a simple implementation of the classic Pong game using 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pong-game.git
+   git clone https://github.com/datnaijakid/pong-game.git
    cd pong-game
    ```
 

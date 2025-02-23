@@ -29,6 +29,14 @@ class Characters(Turtle):
     def move_down(self, HEIGHT):
         if self.ycor() >= -HEIGHT/2 + 70:
             self.sety(self.ycor() - VEL)
+            
+    def move_left(self, WIDTH):
+        if self.xcor() >= -WIDTH/4 + 20:
+            self.setx(self.xcor() - VEL)
+            
+    def move_right(self, WIDTH):
+        if self.xcor() <= WIDTH/2 - 20:
+            self.setx(self.xcor() + VEL)
 
     def draw_center(self, HEIGHT):
         center = Turtle()

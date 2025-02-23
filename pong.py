@@ -46,6 +46,8 @@ def start_game(mode, difficulty):
     if mode == "1": #player vs Computer
         screen.onkeypress(lambda: character_right.move_up(HEIGHT), "Up")
         screen.onkeypress(lambda: character_right.move_down(HEIGHT), "Down")
+        screen.onkeypress(lambda: character_right.move_left(WIDTH=WIDTH), "Left")
+        screen.onkeypress(lambda: character_right.move_right(WIDTH=WIDTH), "Right")
     elif mode == "2": # Player vs Player
         screen.onkeypress(lambda: character_right.move_up(HEIGHT), "Up")
         screen.onkeypress(lambda: character_right.move_down(HEIGHT), "Down")
